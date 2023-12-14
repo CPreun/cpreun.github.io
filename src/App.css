@@ -1,9 +1,39 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 2rem;
   text-align: center;
+  font-family: 'Roboto Mono', monospace, sans-serif;
 }
+
+h1 {
+  text-transform: uppercase;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contacts li {
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .logo {
   height: 6em;
