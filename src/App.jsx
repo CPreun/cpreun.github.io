@@ -20,11 +20,6 @@ function App() {
               <img src={linkedinLogo} alt="Linkedin" width={25} />
             </a>
           </li>
-          <li>
-            <a href="mailto:carlinpreun@hotmail.com">
-              <img src={emailLogo} alt="Email" />
-            </a>
-          </li>
         </ul>
       </main>
 
