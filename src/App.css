@@ -1,72 +1,93 @@
 #root {
+  /* width: 100%; */
   max-width: 1280px;
-  /* margin: 0 auto; */
+  height: 90dvh;
+  margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-  font-family: 'Roboto Mono', monospace, sans-serif;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contents {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-right: 1rem;
+}
+
+.contents h1 {
+  font-size: 3.2em;
+}
+
+.contents .reveal {
+  cursor: default;
+  opacity: 1;
 }
 
 h1 {
   text-transform: uppercase;
+  margin: 1rem 0;
+  opacity: 1;
+  animation: name-fadein 3s 1;
+}
+
+@keyframes name-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 ul {
   text-align: left;
   list-style: none;
+  margin: 0;
 }
 
-.contacts {
-    display: flex;
-    align-items: center;
+main {
+  flex: 1;
+  text-align: center;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 
-.contacts li {
-  padding-right: 10px;
+/* main #screen .hide {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 
+main #screen .reveal {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+} */
 
-
-
-
-
-
-
-
-
-
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+main section {
+  /* position: relative; */
+  /* left: 400px; */
+  /* display: none; */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main .hide {
+  /* display: block; */
+  /* visibility:hidden; */
+  /* opacity: 0; */
+  /* transition-duration: 0.5s; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-property: opacity; */
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+main .reveal {
+  /* display: block; */
+  /* visibility: visible; */
+  /* opacity: 1; */
+  /* transition-duration: 0.5s; */
 }
