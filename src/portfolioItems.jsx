@@ -10,14 +10,14 @@ export const portfolioItems = [
         {
           caption: "App Router version of NextJS was used with Prisma ORM.",
           image: {
-            src: "./src/assets/next_home.png",
+            src: "/src/assets/next_home.png",
             alt: "Home Page",
           },
         },
         {
           caption: "Liberal use of MUI datagrids for displaying and editing assets inline.",
           image: {
-            src: "./src/assets/next_assets.png",
+            src: "/src/assets/next_assets.png",
             alt: "Asset Management",
           },
         },
@@ -35,21 +35,21 @@ export const portfolioItems = [
           caption:
             "The home page, with a liberal amount of \"I don't want this to look like a student project,\" and yet it does.",
           image: {
-            src: "./src/assets/php_home.png",
+            src: "/src/assets/php_home.png",
             alt: "Home Page",
           },
         },
         {
           caption: "Webscraping was used to populate data.",
           image: {
-            src: "./src/assets/php_results.png",
+            src: "/src/assets/php_results.png",
             alt: "Results Page",
           },
         },
         {
           caption: "",
           image: {
-            src: "./src/assets/php_entry.png",
+            src: "/src/assets/php_entry.png",
             alt: "Catalogue Entry",
           },
         },
@@ -66,21 +66,21 @@ export const portfolioItems = [
         {
           caption: "",
           image: {
-            src: "./src/assets/rails_home.png",
+            src: "/src/assets/rails_home.png",
             alt: "Home Page",
           },
         },
         {
           caption: "",
           image: {
-            src: "./src/assets/rails_results.png",
+            src: "/src/assets/rails_results.png",
             alt: "Results Page",
           },
         },
         {
           caption: "",
           image: {
-            src: "./src/assets/rails_details.png",
+            src: "/src/assets/rails_details.png",
             alt: "Catalogue Entry",
           },
         },
