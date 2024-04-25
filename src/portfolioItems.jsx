@@ -86,4 +86,49 @@ export const portfolioItems = [
         },
       ],
     },
+    {
+      listTitle: "Ecommerce",
+      listReveal: " - Rails, Stripe",
+      contentTitle: "Ecommerce Site",
+      what: "",
+      why: "",
+      how: "",
+      features: [
+        {
+          caption: "",
+          image: {
+            src: "/images/ecommerce_home.png",
+            alt: "Home Page",
+          },
+        },
+        {
+          caption: "",
+          image: {
+            src: "/images/ecommerce_items.png",
+            alt: "Items Page",
+          },
+        },
+        {
+          caption: "",
+          image: {
+            src: "/images/ecommerce_order.png",
+            alt: "Order Summary",
+          },
+        },
+        {
+          caption: "",
+          image: {
+            src: "/images/ecommerce_stripe.png",
+            alt: "Embedded Stripe Checkout",
+          },
+        },
+        {
+          caption: "",
+          image: {
+            src: "/images/ecommerce_activeadmin.png",
+            alt: "Active Admin Dashboard",
+          },
+        },
+      ],
+    }
   ];
